@@ -18,7 +18,7 @@ class TagsController < ApplicationController
 
     @tag.destroy
 
-    #redirect_to tags_path
+    redirect_to tags_path
   end
 
 
